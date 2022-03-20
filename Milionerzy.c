@@ -3,7 +3,6 @@
 #include <ctype.h>
 #include <time.h>
 #define _CRT_SECURE_NO_WARNINGS
-#include "C:\Users\user\source\repos\Milionerzy\Milionerzy\k.h"
 
 typedef char* String;
 typedef enum { TRUE = 1, FALSE = 0 } bool;
