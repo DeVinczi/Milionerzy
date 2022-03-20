@@ -1,0 +1,109 @@
+typedef char* String;
+String str1[] = { "Jakie kolory ma flaga Japonii?\nA - Bialo-czerwone B - Bialo-czarne\nC - Czerwono-czarne D - Bialo-niebieskie\n",
+	"Ktore z wymienionych panstw jest sasiadem Polski?\nA - Chorwacja B - Estonia\nC - Bialorus D - Szwajcaria\n",
+	"Kim byli Helleni?\nA - Persami B - Rzymianami\nC - Slowianami D - Grekami\n",
+	"Jak nazywa sie zalozyciel firmy Tesla Inc.\nA - Bill Gates B - Warrent Buffet\nC - Elon Musk D - Jeff Bezos\n",
+	"Banknot o najwyzszym nominale w Polsce to:\nA - 100 zl B - 200 zl\nC - 500 zl D - 1000 zl\n",
+	"Kiedy wybuchla II wojna swiatowa w Europie?\nA - 1941 B - 1939\nC - 1940 D - 1938\n",
+	
+	"Co napisal Adam Mickiewicz?\nA - Iliada B - Czarne Lustro\nC - Chlopi D - Pan Tadeusz\n",
+	"Co ile odbywaja sie mistrzostwa swiata w Pilce Noznej?\nA - Co rok B - Co 2 lata\nC - Co 3 lata D - Co 4 lata\n",
+	"Jaki sport uprawia Anita Wlodarczyk?\nA - Rzut oszczepem B - Rzut mlotem\nC - Pchniecie kula D - Skok o tyczce\n",
+	"Z czego slawny jest Robert Kubica?\nA - Z jazdy w formule 1 B - Ze skokow narciarskich\nC - Z zalozenia poteznej firmy D - Z teleturniejow telewizyjnych\n",
+	"Jaki podstawowy kolor ma popularny napoj fanta?\nA - Czerwony B - Pomaranczowy\nC - Niebieski D - Zielony\n",
+	"Dokoncz popularne powiedzenie 'Gdyby babka miala wasy ...'\nA - To mialaby wasy B - To bylaby dalej babka\nC - To bylaby dziadkiem D - To nie babka\n",
+	
+	"Aktualnie najlepszy polski szachista pod wzgledem rankingu FIDE?\nA - Damian Wojtaszek B - Jan-Krzysztof Duda\nC - Dawid Czerwinski D - Bartosz Socko\n",
+	"W ktorym roku Polska odzyskala niepodleglosc?\nA - 1919 B - 1921\nC - 1918 D - 1920\n",
+	"W ktorym roku odbywa sie akcja gry CYBERPUNK?\nA - 2025 B - 2066\nC - 2055 D - 2077\n",
+	"Najstarsza kryptowaluta na swiecie to:\nA - Etherum B - Bitcoin\nC - Dogecoin D - XRP\n",
+	"W ktorym roku Robert Lewandowski wygral Lige Mistrzow UEFA?\nA - 2015 B - 2016\nC - 2018 D - 2020\n",
+	"Jak mial na imie 45. Prezydent USA Trump?\nA - Donald B - Christian\nC - Andreas D - Barack\n",
+	
+	"Na jakiej wysokosci jest siatka w trakcie meczu Pilki siatkowej?\nA - 2.40m B - 2.43m\nC - 2.25m D - 2.32m\n",
+	"Kto jest aktualnym mistrzem Polski(sezon 2020/2021) w Pilce Siatkowej?\nA - Asseco Resovia Rzeszow B - PGE Skra Belchatow\nC - Trefl Gdansk D - Zaksa Kedzierzyn-Kozle\n",
+	"Jak nazywa sie teleskop, ktory zostal wyniesiony na orbite pod koniec 2021 roku?\nA - Webba B - Hubbla\nC - Chandra D - Spitzera\n",
+	"Kto wymyslil jezyk C?\nA - Ken Thompson B - Dennis Ritchie\nC - Brian Kernighan D - Bjarne Stroustrup\n",
+	"Kim byl Mariusz Pudzianowski na poczatku roku 2000?\nA - Dwuboista Olimpijskim B - Strongmanem\nC - Armwrestlerem D - Trojboista Silowym\n",
+	"Ktora z ksiazek miala najwiekszy naklad w historii?\nA - Don Kichot B - Czerwona Ksiazka Mao\nC - Biblia D - Wladca Pierscienii\n",
+	
+	"Co charakterystycznego wydarzylo sie na placu Tiananmen w Chinach?\nA - Obalenie rzadu B - Atak na prezydenta USA\nC - Zatrzymanie kolumny czolgow przez czlowieka D - Atak bombowy\n",
+	"Ile razy Wladimir Putin byl prezydentem Republiki Rosyjskiej?\nA - 1 B - 2\nC - 3 D - 4\n",
+	"Ktora witamina jest rozpuszczalna w tluszczach?\nA - Witamina A B - Witamina B\nC - Witamina C D - Witamina F\n",
+	"Na jakiej platformie Make Life Harder zamieszcza swoje stories?\nA - Facebook B - Instagram\nC - Twitter D - Snapchat\n",
+	"Jakiej narodowosci jest Lionel Messi?\nA - Argentynskiej B - Brazylijskiej\nC - Chilijskiej D - Wenezuelskiej\n",
+	"Ktore z wymienionych czynnosci sa niedozwolone w Szachach?\nA - Ruch krolem o 2 pola B - Bicie pionem w przelocie\nC - Ruch skoczkiem po torze o literze 'L' D - Ruch goncem po przekatnej\n",
+	
+	"Ktore z wymieninych gor leza w Europie?\nA - Gora Kosciuszki B - Gory Stolowe\nC - Gory Skaliste D - Gory Pamir\n",
+	"W ktorym wieku zyl Jan Kochanowski?\nA - XVI B - XVII\nC - XVIII D - XIX\n",
+	"Ktory z wymienionych obrazow namalowal Jan Matejko?\nA - Hamlet Polski B - Hold Pruski\nC - Zydowka z pomaranczami D - Ucieczka Henryka Walezego z Polski\n",
+	"Na jakim instrumencie gra glowny bohater Jakub Brenner w filmie 'Chlopaki nie placza'?\nA - Trabka B - Flet poprzeczny\nC - Gitara D - Skrzypce\n",
+	"Kto gra gangstera Freda w filmie 'Chlopaki nie placza'?\nA - Sebastian Fabijanski B - Cezary Pazura\nC - Boguslaw Linda D - Borys Szyc\n",
+	"W jakim kolorze kurtki Marcin Najman przyjechal pod Stadion Rakowa dnia 21.12.2020?\nA - Czerwonej B - Czarnej\nC - Zoltej D - Niebieskiej\n",
+	
+	"Kim byl Jacek Malczewski?\nA - Malarzem B - Wykladowca Uniwersyteckim\nC - Fizykiem D - Matematykiem\n",
+	"Co zakladal Plan Marshalla?\nA - Inwazje na Zwiazek Radziecki B - Program Odbudowy Europy\nC - Pucz w Stanach Zjednoczonych D - Akcje zbrojne na terenie Grenlandii\n",
+	"Najpopularniejszy serial telewizyjny w 2021 to:\nA - Wiedzmin B - Lupin\nC - Squid Game D - Sex Education\n",
+	"Ktory z filmow wyrezyserowal Chrisotpher Nolan?\nA - Dunkierka B - Licorice Pizza\nC - Spider-Man: Homecoming D - Czerwona Jaskolka\n",
+	"Ojcem jakiego nurtu filozoficznego byl Rene Descartes?\nA - Epikureizmu  B - Stoicyzmu\nC - Racjonalizmu D - Katastrofizmu\n",
+	"Data pierwszej wolnej elekcji w polsce to:\nA - 1573 B - 1580\nC - 1569 D - 1582\n",
+
+	"Ktory hormon odpowiada za wybudzanie kazdego ranka nas ze snu?\nA - Melatonina B - Serotonina\nC - Kortyzol D - Dopamina\n",
+	"Ktory z youtuberow ma najwiecej subskrybcji?\nA - PewDiePie B - SET India\nC - Blowek D - T-Series\n",
+	"Ktore studio stworzylo gre Red Dead Redemption 2?\nA - Rockstar Games B - CD Projekt Red \nC - Electronic Arts D - Techland\n",
+	"Gdzie byla stolica Generalnego Gubernatorstwa?\nA - W Lublinie B - W Warszawie\nC - W Kielcach D - W Krakowie\n",
+	"Co miesci Wielki Luk Braterstwa w paryskiej dzielnicy La Defense, zwany dwudziestowieczna wersja Luku Triumfalnego?\nA - Biura ministerstwa ekologii B - Szczatki Napoleona I\nC - Nic D - Ziemie z pol bitewnych\n",
+	"Na co reaguje nocyceptor?\nA - Na mroki nocy B - Na slodki smak\nC - Na podczerwien małej mocy D - Na bodzce uszkadzające tkanki\n",
+	
+	"Z czego odlane sa zlote medale olimpijskie?\nA - Ze zlota B - Z brazu\nC - Z zeliwa D - Ze srebra\n",
+	"W 1971 r. psycholog Philip Zimbardo przeprowadzil eksperyment symulujacy:\nA - Zycie rozbitkow na wyspie B - Przebywanie w kosmosie\nC - Zycie w wiezieniu D - Odbijanie zakladnikow\n",
+	"Z czego w glownej mierze zrobione sa tak zwane monety bulionowe?\nA - Z pasty rosolowej B - Ze zrolowanego miesa\nC - Z miedzi D - Ze zlota\n",
+	"Pod jaki zabor trafil Bialystok w 1795 roku, jesli trafil?\nA - Nie trafil pod zaden B - Pod austryjacki\nC - Pod rosyjski D - Pod pruski\n",
+	"Kto sklada zeznanie podatkowe na druku PIT-19A?\nA - Nauczyciele B - Duchowni\nC - Rolnicy D - Wiezniowie\n",
+	"Najwyzszy budynek swiata Burdz Chalifa zwienczony jest tym samym elementem architektonicznym, co...\nA - Krzywa Wieza w Pizie B - Palac Kultury i Nauki\nC - Opera w Sydney D - Statua Wolnosci\n",
+
+	"W mozgu istota szara, tworzac kore mozgu, otacza istote biala. W rdzeniu kregowym jest...\nA - Tak samo B - Odwrotnie\nC - Tylko istota szara D - Tylko istota biala\n",
+	"Krzysztof Komeda skomponowal muzyke do wszystkich tych filmow, ale jeden z nich wyrezyserowal kto inny niz pozostale. \nKtory?\nA - 'Noz w wodzie' B - 'Matnia'\nC - 'Niewinni czarodzieje' D - 'Dziecko Rosemary'\n",
+	"Polpasiec to krewny: \nA - Calego pasca B - Ospy wietrznej\nC - Czarnej ospy D - Zoltej febry\n",
+	"Kosc guziczna to koncowy odcinek:\nA - Mostka B - Piszczeli\nC - Strzalki D - Kregoslupa\n",
+	"Diuretyki to leki, po których najwiecej czasu spędzamy:\nA - W sypialni B - Na silowni\nC - W toalecie D - Na haju\n",
+	"Podczas nebulizacji lek podawany jest:\nA - Prosto do zyly B - W postaci aerozolu\nC - Pod skore D - W formie czopkow\n",
+	
+	"Magnezja jest przodkiem:\nA - Kliszy fotograficznej B - Wywolywacz\nC - Suszarki do zdjec D - Lampy Blyskowej\n",
+	"Komiksowym 'dzieckiem' rysownika Boba Kane'a jest:\nA - Superman B - Batman\nC - Spider-Man D - Capitan America\n",
+	"Ktory aktor urodzil sie w roku opantetowanie kinematografu braci Lumiere?\nA - Rudolph Valentino B - Humphrey Bogart\nC - Charlie Chaplin D - Fred Astaire\n",
+	"Liker maraskino produkuje sie z maraski, czy odmiany:\nA - Wisni B - Jabloni\nC - Figi D - Gruszy\n",
+	"Z gry na jakim instrumencie slynie Czeslaw Mozil?\nA - Na klarnecie B - Na akordeonie\nC - Na djembe D - Na ksylofonie\n",
+	"Ktory utwor Juliusza Slowackiego napisany jest proza?\nA - 'Godzina Mysli' B - 'W Szwajcarii'\nC - 'Anhelli' D - 'Arab'\n",
+
+	"Co ukoi nerwy i zastapi cytryne?\nA - Melisa lekarska B - Mieta pieprzowa\nC - Jaskolcze ziele D - Ziele angielskie\n",
+	"W piosence Dwa plus Jeden pada propozycja: 'Chodz pomaluj moj swiat...'\nA - Niech wyglada jak kwiat B - Mam juz dosc szarych krat\nC - Na zolto i na niebiesko D - Bo swiat jest dzis pod kreska\n",
+	"Co jest tradycyjnym srodkiem transportu amiszow\nA - Motorowka B - Zaprzeg\nC - Sniezny skuter D - Motocykl\n",
+	"Ped wyrosly z nieuszlachetnionej podkladki to:\nA - Kot albo pies B - Wilk albo dzik\nC - Kon albo krowa D - Baran albo koziol\n",
+	"Tytulowa wataha z serialu wyrezyserowanego m.in. przez Kasie Adamik to:\nA - Wilcza rodzina B - Rosyjscy szpiedzy\nC - Uchodzcy ze wschodu D - Straznicy graniczni\n",
+	"Ktorych bierek w bierkach jest najwiecej?\nA - Wiosel B - Bosakow\nC - Trojzebow D - Oszczepow\n",
+	"W jakiej bitwie mial swoj udzial slawny w Polsce i Szkocji kapral niedzwiedz o imieniu Wojtek?\nA - Pod El Alamain B - Pod Wiedniem\nC - Pod Monte Casino D - O Angile\n",
+	"Aorta wychodzi z lewej komory serca, a konczy sie:\nA - W prawej komorze B - W lewej komorze\nC - W pluchach D - W jamie brzusznej\n",
+	"Symbol waluty euro to stylizowana litera grecka. Ktora?\nA - Beta B - Heta\nC - Eta D - Epsilon\n",
+	"Za 30 judaszowych srebrnikow arcykaplani kupili kawalek ziemii nazywany Polem Garncarza, ktory przeznaczyli na:\nA - Plantacje oliwek B - Wybieg dla lwow\nC - Cmentarz dla cudzoziemcow D - Targowisko\n"};
+
+String poprawna_odpowiedz[] = 
+{'A','C','D','C','C','B',
+'D','D','B','A','B','C',
+'B','C','D','B','D','A',
+
+'B','D','A','B','B','C',
+'C','D','A','B','A','A',
+'B','A','B','D','B','D',
+'A','B','C','A','C','A',
+'C','D','A','A','A',
+'D','D','C','D','C','A','B',
+'B','C','B','D','C','B',
+'D','B','A','A','B','C',
+'A','C','B','B','D','D','C','D','D','C'};
+
+String wygrana[] = {"500 zl","1000 zl","2000 zl", "5000 zl",
+"10.000 zl","20.000 zl","50.000 zl","75.000 zl","125.000 zl","250.000 zl","500.000 zl", "1.000.000 zl"};
+
+
+
